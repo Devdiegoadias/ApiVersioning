@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+ <PropertyGroup>
+  <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+  <RootNamespace>Microsoft.AspNetCore.Mvc</RootNamespace>
+  <PreserveCompilationContext>true</PreserveCompilationContext>
+ </PropertyGroup>
+
+ <ItemGroup>
+  <ProjectReference Include="..\..\src\Microsoft.AspNetCore.Mvc.Versioning\Microsoft.AspNetCore.Mvc.Versioning.csproj" />
+ </ItemGroup>
+
+ <Import Project="..\Test.Common\Test.Common.projitems" Label="Shared" />
+
+</Project>

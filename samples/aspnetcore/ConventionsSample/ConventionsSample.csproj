@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+ <PropertyGroup>
+  <TargetFramework>net5.0</TargetFramework>
+  <RootNamespace>Microsoft.Examples</RootNamespace>
+ </PropertyGroup>
+ 
+ <ItemGroup>
+  <ProjectReference Include="..\..\..\src\Microsoft.AspNetCore.Mvc.Versioning\Microsoft.AspNetCore.Mvc.Versioning.csproj" />
+ </ItemGroup>
+
+</Project>
